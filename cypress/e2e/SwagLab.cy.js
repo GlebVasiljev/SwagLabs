@@ -109,7 +109,7 @@ describe('SwagLabs Testing', () => {
 
   });
 
-  it.only('10. Buy a T-shirt', () => {
+  it('10. Buy a T-shirt', () => {
 
     SwagLabsHomePage.visit();
     SwagLabsHomePage.userLoginField.click().type('standard_user');
